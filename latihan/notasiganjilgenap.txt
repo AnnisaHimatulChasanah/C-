@@ -1,0 +1,51 @@
+Notasi
+judul : menjumlahkan dan mencari ada berapa bilangan ganjil dan genap menggunakan array
+
+kamus:
+genap=0, ganjil=0, jmlgenap=0, jmlganjil=0, n, i, totalempat=0, jmlempat=0 <- integer
+data[1..100] <- array of int
+
+diskripsi
+output "Masukkan jumlah bilangan yang ingin diinput : "
+input n
+
+mengisi element array
+i = 0
+while(i<n)
+{
+	output "Masukkan element ke - " << i + 1 << " "
+	input data[i]
+	i = i + 1
+}
+
+mencetak element array
+i = 0
+while(i<n)
+{
+	output data[i]
+	i = i + 1
+}
+
+melakukan pencarian total bilangan ganjil genap
+i = 0
+repeat{
+	if(data[i]mod 2 = 0){
+		genap = genap + 1
+		jmlgenap = jmlgenap + data[i]
+	}else{
+		ganjil = ganjil + 1
+		jmlganjil = jmlganjil + data[i]
+	}
+	if(data[i] mod 4 == 0)
+	{
+		totalempat = totalempat + 1
+		jmlempat = jmlempat + data[i]
+	}
+	i = i + 1
+}until(i<n)
+	output "Total bilangan genap   : ", genap 
+	output "Total bilangan ganjil  : " , ganjil 
+	output "Jumlah bilangan genap  : " , jmlgenap
+	output "Jumlah bilangan ganjil : " , jmlganjil
+	output "total bilangan dibagi 4  : " , totalempat
+	output "Jumlah bilangan dibagi empat : " , jmlempat

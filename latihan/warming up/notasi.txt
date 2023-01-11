@@ -1,0 +1,25 @@
+1. Hallo Semarang
+apa kabar hari ini
+
+2. A = 1.9 B = input C= 20
+*) A*B = 
+**) A + C * B = 
+***) Rubah A -- > 20 C--> 1.9
+
+3. PADA NOMOR 1, ASSIGMENT KAN HALLO DAN KABAR STRING
+	Hello = " Semarang "
+	kabar = "Apakabar hari ini"
+	Outputkan helo dan kabar
+
+4. pada nomor 2, A B C DI INPUT
+	mana yang lebih besar
+	input a, b, c
+	output 
+	*) A*B = 
+	**) A + C * B = 
+	mana yang lebih besar ?
+	if ( a < b && b < c )
+	if ( b < a && b < c )
+	else
+
+5. repeat 

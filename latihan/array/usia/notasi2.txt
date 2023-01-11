@@ -1,0 +1,69 @@
+judul : Array lanjut menginput usia, mencari rata-rata
+
+kamus : 
+arrumur[10] --> array of int
+arrBB[10] --> array of real
+data, a, total --> int
+rata, jmlh --> riil
+
+diskripsi :
+output "DATA USIA"
+arrumur[1] <-- 17
+arrumur[2] <-- 18
+arrumur[3] <-- 14
+arrumur[4] <-- 19
+arrumur[5] <-- 20
+arrumur[6] <-- 23
+arrumur[7] <-- 24
+arrumur[8] <-- 27
+arrumur[9] <-- 30
+arrumur[10] <-- 35
+
+a <-- 0
+while(a < 10)
+        output arrumur[a]
+        a <-- a+1
+
+output "Berat badan"
+arrBB[1] <-- 34.9
+arrBB[2] <-- 43.6
+arrBB[3] <-- 35.8
+arrBB[4] <-- 39.9
+arrBB[5] <-- 56.8
+arrBB[6] <-- 49.8
+arrBB[7] <-- 52.6
+arrBB[8] <-- 43.9
+arrBB[9] <-- 54.9
+arrBB[10] <-- 30.9
+
+a<-- 0
+while(a < 10)
+        output arrBB[a]
+        a <-- a+1
+
+//tampilkan arrumut, arrBB
+//dengan loop while
+
+//jumlah umur
+a = 0
+    while (a < 11)
+        jmlh = jmlh + arrumur[a];
+        a <-- a + 1
+
+output "Jumlah keselurah umurnya adalah, jmlh
+
+//rata-rata umur
+rata = jmlh/10
+output "Maka rata-rata usia adalah, rata
+
+//jumlah BB
+a <-- 0
+    while (a < 11)
+        jmlh = jmlh + arrBB[a]
+        a <-- a+1
+
+//rata-rata BB
+rata = jmlh/10
+output "Maka rata-rata BB adalah, rata 
+
+

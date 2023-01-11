@@ -1,0 +1,20 @@
+judul : Array lanjut menginput usia, mencari rata-rata
+
+kamus : 
+array[100], data, a, total --> int
+rata2 --> riil
+
+diskripsi :
+output "jumlah data array"
+input data
+
+while (a < data)
+ouput Masukkan usia : 
+input array[a]
+total = total + array[a]
+a++
+end while
+
+rata = total/data
+output "Maka rata-ratanya adalah :
+input rata
